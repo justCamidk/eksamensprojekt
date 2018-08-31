@@ -1,0 +1,10 @@
+.move {
+width:200px;
+height:200px;
+background:url("solsikke 5.jpg") 0 0 no-repeat;
+animation: test 3s steps(9) infinite;
+}
+@keyframes test {
+             0% {background-position: 0px;}
+            100% {background-position: -1800px;}
+}
